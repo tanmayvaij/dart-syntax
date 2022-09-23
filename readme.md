@@ -217,6 +217,7 @@ switch ( /* expression */ ) {
 | % | Use to give remainder of two operands |
 | ++ | Increment |
 | -- | Decrement |
+<br/>
 
 > Comparison Operators
 
@@ -228,6 +229,7 @@ switch ( /* expression */ ) {
 | <= | Check which operand is less than or equal to each other and give result as boolean expression. |
 | == | Check whether the operand are equal to each other or not and give result as boolean expression. |
 | != | Check whether the operand are not equal to each other or not and give result as boolean expression. |
+<br/>
 
 > Type Test Operators
 
@@ -235,6 +237,7 @@ switch ( /* expression */ ) {
 | --------- | ----------- |
 | is | Gives boolean value true as output if the object has specific type |
 | is! | Gives boolean value false as output if the object has specific type |
+<br/>
 
 > Bitwise Operators
 
@@ -246,6 +249,7 @@ switch ( /* expression */ ) {
 | ~ | Performs bitwise NOT operation on two operands. |
 | << | Shifts a in binary representation to b bits to left and inserting 0 from right. |
 | >> | Shifts a in binary representation to b bits to left and inserting 0 from left. |
+<br/>
 
 > Logical Operators
 
@@ -254,7 +258,8 @@ switch ( /* expression */ ) {
 | && | Use to add two conditions and if both are true than it will return true. |
 | &#124;&#124; | Use to add two conditions and if even one of them is true than it will return true. |
 | ! | It is use to reverse the result. |
-  
+<br/> 
+
 > Assignment Operators
 
 | Operators | Description |
@@ -266,6 +271,7 @@ switch ( /* expression */ ) {
 | %= | Assign value after modulus |
 | *= | Assign value after multiplication |
 | ~/= | Assign value after integer division |
+<br/>
 
 > Null Aware Operators
 
