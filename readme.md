@@ -50,6 +50,12 @@ void main() {
 
   dynamic f = "dynamic val";
   print(f.runtimeType);
+  
+  const g = 123;
+  print(g.runtimeType);
+
+  final h = 3.14;
+  print(h.runtimeType);
 }
 ```
 <br/>
