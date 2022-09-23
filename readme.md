@@ -50,7 +50,7 @@ void main() {
 
   dynamic f = "dynamic val";
   print(f.runtimeType);
-  
+
   const g = 123;
   print(g.runtimeType);
 
@@ -200,3 +200,79 @@ switch ( /* expression */ ) {
         break;
 }
 ```
+<br/>
+
+### 10. Operators in Dart
+
+> Arithmetic Operators
+
+| Operators | Description |
+| --------- | ----------- |
+| + | Use to add two operands |
+| – | Use to subtract two operands |
+| -expr | It is Use to reverse the sign of the expression |
+| * | Use to multiply two operands |
+| / | Use to divide two operands |
+| ~/ | Use two divide two operands but give output in integer |
+| % | Use to give remainder of two operands |
+| ++ | Increment |
+| -- | Decrement |
+
+> Comparison Operators
+
+| Operators | Description |
+| --------- | ----------- |
+| > | Check which operand is bigger and give result as boolean expression. |
+| < | Check which operand is smaller and give result as boolean expression. |
+| >= | Check which operand is greater or equal to each other and give result as boolean expression. |
+| <= | Check which operand is less than or equal to each other and give result as boolean expression. |
+| == | Check whether the operand are equal to each other or not and give result as boolean expression. |
+| != | Check whether the operand are not equal to each other or not and give result as boolean expression. |
+
+> Type Test Operators
+
+| Operators | Description |
+| --------- | ----------- |
+| is | Gives boolean value true as output if the object has specific type |
+| is! | Gives boolean value false as output if the object has specific type |
+
+> Bitwise Operators
+
+| Operators | Description |
+| --------- | ----------- |
+| & | Performs bitwise and operation on two operands. |
+| &#124; | Performs bitwise or operation on two operands. |
+| ^ | Performs bitwise XOR operation on two operands. |
+| ~ | Performs bitwise NOT operation on two operands. |
+| << | Shifts a in binary representation to b bits to left and inserting 0 from right. |
+| >> | Shifts a in binary representation to b bits to left and inserting 0 from left. |
+
+> Logical Operators
+
+| Operators | Description |
+| --------- | ----------- |
+| && | Use to add two conditions and if both are true than it will return true. |
+| &#124;&#124; | Use to add two conditions and if even one of them is true than it will return true. |
+| ! | It is use to reverse the result. |
+  
+> Assignment Operators
+
+| Operators | Description |
+| --------- | ----------- |
+| = | Assign values to variable |
+| -= | Assign value after subtraction |
+| += | Assign value after addition |
+| /= | Assign value after division |
+| %= | Assign value after modulus |
+| *= | Assign value after multiplication |
+| ~/= | Assign value after integer division |
+
+> Null Aware Operators
+
+| Operators | Description |
+| --------- | ----------- |
+| ! | If you want to assign a nullable value to a non-nullable variable, Dart will not allow you by default. In this situation you can use an exclamation symbol ! to force the compiler to tell the value is non-null. |
+| ? | If you want to allow null, you can add the question mark ? to the end of the variable’s type. |
+| ?? | if the value on the left is null go with the value on the right, if a value is not null do nothing. |
+| ??= | Null-aware assignment operator in dart says if the value is null then it assigns value after ??=, else don’t assign any other value. |
+| ?. | The null-aware access operator in the dart returns null if the left-hand side is null else it will return the property of the right hand. |
