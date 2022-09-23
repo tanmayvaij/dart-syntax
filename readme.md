@@ -203,6 +203,7 @@ switch ( /* expression */ ) {
 <br/>
 
 ### 10. Operators in Dart
+<br/>
 
 > Arithmetic Operators
 
