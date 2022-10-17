@@ -283,3 +283,58 @@ switch ( /* expression */ ) {
 | ?? | if the value on the left is null go with the value on the right, if a value is not null do nothing. |
 | ??= | Null-aware assignment operator in dart says if the value is null then it assigns value after ??=, else don’t assign any other value. |
 | ?. | The null-aware access operator in the dart returns null if the left-hand side is null else it will return the property of the right hand. |
+<br/>
+
+### 11. List
+
+```dart
+// Sample script:- script_09.dart
+
+void main() {
+  List names = ["name1", "name2"];
+  print(names);
+
+  List<String> names1 = ["name1", "name2"];
+  print(names1);
+
+  var names2 = <String>["name1", "name2"];
+  print(names2);
+}
+```
+<br/>
+
+### 12. Map
+
+```dart
+// Sample script:- script_10.dart
+
+void main() {
+  var map1 = {"name": "Tanmay", "age": 1, 5: "Str"};
+  print(map1);
+
+  var map2 = new Map();
+  map2["name"] = "Tanmay";
+  print(map2);
+
+  Map<String, int> map3 = {"Monday": 1, "Tuesday": 2};
+  print(map3);
+}
+```
+<br/>
+
+### 13. Set
+
+```dart
+// Sample script:- script_11.dart
+
+void main() {
+  Set names = {"name1", "name2"};
+  print(names);
+
+  Set<String> names1 = {"name1", "name2"};
+  print(names1);
+
+  var names2 = <String>{"name1", "name2"};
+  print(names2);
+}
+```
