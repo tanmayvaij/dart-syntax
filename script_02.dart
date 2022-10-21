@@ -8,6 +8,11 @@ void main() {
   double c = 40.45;
   print(c.runtimeType);
 
+  num c1 = 6;
+  num c2 = 6.66;
+  print(c1.runtimeType);
+  print(c2.runtimeType);
+
   String d = "Sample";
   print(d.runtimeType);
 

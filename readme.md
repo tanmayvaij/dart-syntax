@@ -23,7 +23,12 @@ void main() {
     multiline comment
 */
 
-/// Documentation comment
+/// Single line documentation comment
+
+/**
+* Multiline documentation comment
+*/
+
 ```
 <br/>
 
@@ -41,6 +46,11 @@ void main() {
 
   double c = 40.45;
   print(c.runtimeType);
+
+  num c1 = 6;
+  num c2 = 6.66;
+  print(c1.runtimeType);
+  print(c2.runtimeType);
 
   String d = "Sample";
   print(d.runtimeType);
@@ -214,7 +224,7 @@ switch ( /* expression */ ) {
 | -expr | It is Use to reverse the sign of the expression |
 | * | Use to multiply two operands |
 | / | Use to divide two operands |
-| ~/ | Use two divide two operands but give output in integer |
+| ~/ | Use to divide two operands to give output in integer |
 | % | Use to give remainder of two operands |
 | ++ | Increment |
 | -- | Decrement |
