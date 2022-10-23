@@ -13,6 +13,9 @@ void main() {
   print(c1.runtimeType);
   print(c2.runtimeType);
 
+  print(c1 is int);
+  print(c2 is double);
+
   String d = "Sample";
   print(d.runtimeType);
 
@@ -27,4 +30,8 @@ void main() {
 
   final h = 3.14;
   print(h.runtimeType);
+
+  Object? i = "45";
+  i = 45;
+  print(i.runtimeType);
 }

@@ -7,5 +7,7 @@ void main() {
   } else {
     print("Invalid marks");
   }
-  marks > 50 ? print("Above average"): print("Below average");
+  marks > 50 ? print("Above average") : print("Below average");
+
+  (marks > 78) ? print("true") : print("false");
 }
