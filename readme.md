@@ -355,3 +355,18 @@ void main() {
   print(names2);
 }
 ```
+<br/>
+
+### 14. Enum
+
+```dart
+//Sample script:- script_12.dart
+
+enum Weather { sunny, snowy, cloudy, rainy }
+
+void main() {
+  print(Weather.values);
+  print(Weather.cloudy);
+  print(Weather.cloudy.index);
+}
+```
